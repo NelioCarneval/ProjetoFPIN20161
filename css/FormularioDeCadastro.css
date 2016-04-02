@@ -1,0 +1,16 @@
+table
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table, th, td
+{    
+    border: none; /* retira bordas internas da tabela */
+}
+
+td
+{
+	text-align: left;
+	padding: 10px;
+}
