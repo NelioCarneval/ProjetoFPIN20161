@@ -4,7 +4,8 @@
  <head>
  <title> Cadastro de voluntario/cuidador </title>
  <meta name="description" content="Fórmulário de Cadastramento para Voluntários">
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <link rel="stylesheet" type="text/css" href="https://github.com/NelioCarneval/ProjetoFPIN20161/blob/master/css/FormularioDeCadastro.css">
  </head>
 
  <body>
@@ -16,18 +17,18 @@
 <!-- DADOS PESSOAIS-->
 <fieldset>
  <legend>Dados Pessoais</legend>
- <table cellspacing="10">
+ <table>
   <tr>
    <td>
     <label for="nome">Nome: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="email">
    </td>
    <td>
     <label for="sobrenome">Sobrenome: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="sobrenome">
    </td>
   </tr>
@@ -35,7 +36,7 @@
    <td>
     <label>Nascimento: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
    <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
    <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
@@ -45,7 +46,7 @@
    <td>
     <label for="rg">RG: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="rg" size="13" maxlength="13"> 
    </td>
   </tr>
@@ -53,7 +54,7 @@
    <td>
     <label>CPF:</label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
    </td>
   </tr>
@@ -64,19 +65,19 @@
 <!-- ENDEREÇO -->
 <fieldset>
  <legend>Dados de Endereço</legend>
- <table cellspacing="10">
+ <table>
 
   <tr>
    <td>
     <label for="rua">Rua:</label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="rua">
    </td>
    <td>
     <label for="numero">Numero:</label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="numero" size="4">
    </td>
   </tr>
@@ -84,7 +85,7 @@
    <td>
     <label for="bairro">Bairro: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="bairro">
    </td>
   </tr>
@@ -92,7 +93,7 @@
    <td>
     <label for="estado">Estado:</label>
    </td>
-   <td align="left">
+   <td>
     <select name="estado"> 
     <option value="ac">Acre</option> 
     <option value="al">Alagoas</option> 
@@ -128,7 +129,7 @@
    <td>
     <label for="cidade">Cidade: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="cidade">
    </td>
   </tr>
@@ -136,7 +137,7 @@
    <td>
     <label for="cep">CEP: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
    </td>
   </tr>
@@ -147,12 +148,12 @@
 <!-- DADOS DE LOGIN -->
 <fieldset>
  <legend>Dados de login</legend>
- <table cellspacing="10">
+ <table>
   <tr>
    <td>
     <label for="email">E-mail: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="email">
    </td>
   </tr>
@@ -169,7 +170,7 @@
    <td>
     <label for="login">Login de usuário: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="text" name="login">
    </td>
   </tr>
@@ -177,7 +178,7 @@
    <td>
     <label for="pass">Senha: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="password" name="pass">
    </td>
   </tr>
@@ -185,7 +186,7 @@
    <td>
     <label for="passconfirm">Confirme a senha: </label>
    </td>
-   <td align="left">
+   <td>
     <input type="password" name="passconfirm">
    </td>
   </tr>
@@ -197,3 +198,4 @@
 </form>
 
  </body>
+</html>
