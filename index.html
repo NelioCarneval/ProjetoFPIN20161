@@ -3,38 +3,93 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PRO-ONG</title>
+
+	<style>
+
+        table {
+        	width: 40%;
+        	margin: auto;
+        }
+
+        table, th, td {
+        	border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+
+        td.made-by {
+        	text-align: center;
+        }
+
+        td.logo {
+        	text-align: left;
+        }        
+
+        td.menu {
+        	column-span: 3;
+        	text-align: right;
+        }
+
+        table.paineis {
+        	width: 40%;
+        	height: 300px;
+        	margin: auto;
+        }
+
+        .quote {
+        	text-align: center;
+        }
+
+    </style>
+
 </head>
 <body>
-	<h3>Header</h3>
-	<ul>
-		<li><a href="#">Logotipo da ONG</a></li>
-		<li><a href="#">Início</a></li>
-		<li><a href="#">Entrar</a></li>
-		<li><a href="#">Sobre</a></li>
-	</ul>
+	<table class="header">
+		<tr>
+			<td class="logo"><a href="#">Logotipo da ONG</a></td>
+			<td class="menu">
+				<a href="#">Início</a>
+				<a href="#">Entrar</a>
+				<a href="#">Sobre</a>
+			</td>
+		</tr>
+	</table>
 
-	<h3>Citações</h3>
-		<p>Reflexões sobre a importância dos animais.</p>
+	<h3 class="quote">Citações</h3>
+		<p class="quote">Reflexões sobre a importância dos animais.</p>
 
-	<h3>Painéis</h3>
-	<ul>
-		<li><a href="#">Animais</a></li>
-		<li><a href="#">Adotantes</a></li>
-		<li><a href="#">Padrinhos</a></li>
-		<li><a href="#">Doadores</a></li>
-		<li><a href="#">Voluntários</a></li>		
-	</ul>	
+	<table class="paineis">
+		<tr>
+			<td><a href="#">Animais</a></td>
+			<td><a href="#">Adotantes</a></td>
+			<td><a href="#">Padrinhos</a></td>
+			<td><a href="#">Doadores</a></td>
+			<td><a href="#">Voluntários</a></td>
+		</tr>
+	</table>
 
-	<h3>Críticas</h3>
-		<p>Parte da página referente ao impacto da ONG na sociedade, de acordo com a opinião dos usuários cadastrados.</p>
+	<h3 class="quote">Críticas</h3>
+		<p class="quote">Parte da página referente ao impacto da ONG na sociedade, de acordo com a opinião dos usuários cadastrados.</p>
 
-	<h3>Footer</h3>
-	<ul>
-		<li><a href="#">Logotipo da ONG</a></li>
-		<li><a href="#">Localização Física da ONG</a></li>
-		<li><a href="#">Logotipo da Empresa Produtora do site (PRO-ONG)</a></li>		
-		<li><a href="#">Mapa do Site</a>
-		</li>
-	</ul>
+	<table class="footer">
+		<tr>
+			<td class="logo"><a href="#">Logotipo da ONG</a></td>
+			<td><a href="#">Localização Física da ONG</a></td>
+			<td><a href="#">Contatos da ONG</a></td>
+			<td><a href="#">Mapa do Site</a></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td class="made-by">
+				<a href="#">Logotipo da Empresa Produtora do site (PRO-ONG)</a>
+			</td>
+		</tr>
+	</table>
+
 </body>
 </html>
