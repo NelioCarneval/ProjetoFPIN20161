@@ -1,0 +1,36 @@
+#content {
+    width: 70%;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+td.logo {
+    text-align: left;
+}        
+
+td.menu {
+    column-span: 3;
+    text-align: right;
+}
+
+.quote {
+    text-align: center;
+}
+
+img.listaFotos{
+    max-width: 299px;
+}
