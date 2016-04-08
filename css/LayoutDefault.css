@@ -1,4 +1,4 @@
-#content {
+#total {
     width: 950px;
     margin: auto;
 }
@@ -29,4 +29,17 @@ td.menu {
 
 .quote {
     text-align: center;
+}
+
+#logoPrincipal{
+    width: 35%;
+}
+
+.menu nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 10px;
 }
