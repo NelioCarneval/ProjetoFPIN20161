@@ -1,45 +1,14 @@
+/*AQUI VAI O CSS DO HEADER E DO FOOTER, ALEM DA <div id="total"> E OUTRAS CARACTERISTICAS QUE SERÃO COMUNS À TODAS AS PÁGINAS*/
+
+/*TODA PÁGINA DEVERÁ TER UMA <div id="total"> dentro do <body> E USARÁ ESSE ARQUIVO COMO REFERÊNCIA PARA HEADER E FOOTER*/
+
+/*O EMMANUEL VAI INSERIR O HEADER E O FOOTER DEPOIS, APENAS COLOQUEM ESSE ARQUIVO COMO UMA DAS REFERENCIAS DE CSS NAS PÁGINAS QUE FIZEREM*/
+
 #total {
     width: 950px;
     margin: auto;
 }
 
-table{
-    width: 100%;
-    margin: auto;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 5px;
-    text-align: center;
-}
-
-td.logo {
-    text-align: left;
-}        
-
-td.menu {
-    column-span: 3;
-    text-align: right;
-}
-
 .quote {
     text-align: center;
-}
-
-#logoPrincipal{
-    width: 35%;
-}
-
-.menu nav ul{
-    list-style: none;
-    padding-left: 0;
-}
-.menu ul li{
-    display: inline-block;
-    margin-right: 1.5%;
 }
