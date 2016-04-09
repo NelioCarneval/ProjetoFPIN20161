@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Localização da ONG</title>
+	
+	<style type="text/css">
+	h1 {
+		text-align: center;
+		font-family: sans-serif;
+	}
+	h4, p {
+		text-align: center;
+		font-family: times;
+		margin: auto;
+	}
+
+
+	</style>
+
+</head>
+
+<body>
+	<h1>Localização da ONG:</h1>
+		<h4>Endereço</h4>	
+		<p>Av. Tancredo Neves, N° 200</p>
+		<h4>Bairro</h4>
+		<p>Cidade Universitária</p>
+		<h4>CEP</h4>
+		<p>57073-383</p>
+
+</body>
+</html>
