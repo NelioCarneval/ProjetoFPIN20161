@@ -1,0 +1,95 @@
+body{
+	font-family: Ubuntu, Consolas, Verdana;
+	background-color: blue;
+}
+a:link, a:visited{
+	color: #FF6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	width: 960px;
+	margin: auto;
+	background: white;
+	padding: 10px 20px;
+}
+header {
+	background-color: blue;
+}
+header h2 {
+	font-family: Ubuntu, Consolas, Verdana;
+	display: inline-block;
+	clear: both;
+	padding-left: 15px;
+}
+header nav {
+	display: inline;
+	align-content: right;
+	padding-left: 37%;
+}
+header nav ul{
+	display: inline;
+	list-style: none;
+	padding: 0px 0px 0px 120px;
+}
+header nav ul li{
+	display: inline-block;
+}
+
+#content{
+	float: right;
+	width: 750px;
+	display: block;
+}
+
+#sidebar{
+	float: left;
+	width: 100px;	
+}
+
+#sidebar ul li{
+	list-style: none;
+	text-align: right;
+	align-content: left;
+}
+
+.imagem {
+/*	width: 100px;
+	height: 100px; */
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
+
+.imagem img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+footer {
+	display: block;
+	clear: both;
+}
+
+footer nav ul li{
+	list-style: none;
+	display: inline;
+	padding-left: 20%;
+}
+
+#about{
+	width: 7%;
+	margin: auto;
+}
+
+#logoInferior{
+	width: 9%;
+	margin: auto;
+}
+
+#local{
+	width: 4%;
+	margin: auto;
+}
