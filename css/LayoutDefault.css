@@ -9,10 +9,37 @@
 	margin: auto;
 	font-family: "Comic Sans MS", cursive;
 	background-color: #D8D8D8;
+	text-transform: none;
+	text-align: center;
     /*font-family: Century Gothic, Verdana, sans-serif;*/
 }
 
 .quote {
 	text-align: center;
 	font-family: "Comic Sans MS", cursive;
+}
+/*.links {
+	color: #090;
+	text-decoration: none;*/
+/*link sem visita */
+a:link {
+    color: #090;
+}
+
+/* link visitado */
+a:visited {
+    color: purple;
+}
+
+/* mouse emcima do link */
+a:hover {
+    color: red;
+}
+
+/*link selecionado */
+a:active {
+    color: yellow;
+}	
+
+	
 }
