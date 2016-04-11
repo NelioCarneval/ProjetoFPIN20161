@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Padrinho - Agendar visita -  ONG Melhor Amigo</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/LayoutDefault.css">
+
+	<style type="text/css">
+
+		table{
+			width: 100%;
+			background-color: #999;
+		}
+
+		/*
+		table, th, td {
+		    border: 1px solid black;
+		    border-collapse: collapse;
+		}
+		*/
+
+		th, td.paginas{
+		    padding: 5px;
+		    text-align: center;
+		}
+
+		td.itemLista{
+			width: 33%;
+			padding: 0.5%;
+			background-color: black;
+			border-radius: 5%;
+		}
+
+		td.itemLista img{
+	    	width: 100%;
+	    	border-radius: 5%;
+		}
+
+		#logoInferior{
+			width: 9%;
+			display: block;
+			margin: auto;
+			padding: 3%;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="total">
+
+		<header>
+			<!-- HEADER VAI AQUI -->
+		</header>
+
+		<div id="conteudo">
+			<h2 class="quote">Agendamento de Visitas: Padrinho</h2>
+
+			<p class="quote">Cadastre a próxima visita preenchendo os dados abaixo,e responderemos por e-mail a disponibilidade em 24Horas</p>
+
+			<article class="quote">
+           	 
+              <h3>Visita do Padrinho:</h3>
+            	<form name="agendamento" method="post" action="#">
+               	  <fieldset>
+                  	<legend style="Color:#090"><strong>Agendamento de Visita</strong></legend>
+                    <p><label>Data do Agendamento: </label><input type="date">
+               	  		</p>
+               	  	<p><label>Selecione um horário: </label>
+						<select>
+							<option value="manha1">Manhã de 09:00 ás 11:20(Segunda à Sexta) </option> 
+						    <option value="tarde1">Tarde de 13:30 ás 17:20(Segunda à Sexta) </option>
+						    <option value="manha2">Manhã de 08:00 ás 12:20(Sábados e Domingos) </option>
+                            <option value="tarde2">Tarde de 13:00 ás 19:30(Sábados e Domingos) </option>
+                        </select>
+               	  	<p><input type="submit" value="Enviar Agendamento"></p> 
+                    <p><input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"></p>
+			
+       	      </form>
+            				</article>
+            
+            <table>
+			    <thead>
+			        <th colspan="3">Conheça nossos cãezinhos</th>
+			    </thead>
+				<tbody>
+					<tr>
+						<td class="itemLista">
+							<a href="Ficha_Caes/Ficha_cao_04_LOGIN.html">
+								<img src="../img/caes/cao_04.jpg" alt="Tereza" title="Tereza" />
+							</a>
+						</td>
+						<td class="itemLista">
+							<a href="Ficha_Caes/Ficha_cao_05_LOGIN.html">
+								<img src="../img/caes/cao_05.jpg" alt="Palito" title="Palito" />
+							</a>
+						</td>
+						<td class="itemLista">
+							<a href="Ficha_Caes/Ficha_cao_06_LOGIN.html">
+								<img src="../img/caes/cao_06.jpg" alt="Luna" title="Luna" />
+							</a>
+						</td>
+					</tr>
+					
+						<td class="paginas" colspan="3">
+							<a href="CaesParaAdocao.html"> +Cãezinhos</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<footer>
+			<!-- FOOTER VAI AQUI -->
+		</footer>
+
+	</div>
+</body>
