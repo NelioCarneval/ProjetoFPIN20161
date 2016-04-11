@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Reitor - ONG Melhor Amigo</title>
+
+	<link rel="stylesheet" type="text/css" href="../../css/LayoutDefault.css">
+
+	<style type="text/css">
+
+		#ficha{
+			width: 53%;
+			margin: auto;
+			background-color: #e3e3e3;
+			display: table;
+			margin-top: 5%;
+		}
+		#fotoDestaque{
+			float: left;
+			width: 50%;
+		}
+		#dados{
+			padding-left: 58%;
+		}
+		#regras{
+			margin-top: 5%;
+			text-align: center;
+		}
+		#proposta{
+			background-color: #e3e3e3;
+			width: 32%;
+			padding: 2%;
+			margin: auto;
+		}
+		textarea{
+			font-family: sans-serif;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="total">
+
+		<header>
+			<!-- HEADER VAI AQUI -->
+		</header>
+
+		<div id="conteudo">
+			<p><a href="#">Animais</a> / <a href="../CaesParaAdocao.html">Cães para adoção</a> / <a href="#">Reitor</a></p>
+
+			<div id="ficha">
+				<img id="fotoDestaque" src="../../img/caes/cao_01.jpg">
+				<div id="dados">
+					<h2 id="nome">Reitor</h2>
+					<p>Gênero: Macho</p>
+					<p>Idade: 3 Anos</p>
+					<p>Porte médio</p>
+				</div>
+			</div>
+
+			<div id="regras">
+				<h4>DOCUMENTAÇÃO NECESSÁRIA:</h4>
+				<p>Para adotar você precisa ser maior de 18 anos.</p>
+				<p>Apresentar documentos originais de RG e CPF, além de comprovante de endereço. Deverá assinar também um termo de adoção se responsabilizando pelo animal por tempo indeterminado, ou seja, até o fim da vida.</p>
+				<p>Caso o animal não se adapte, ele deverá ser devolvido para a nossa ONG.</p>
+				<p>Para adotar um de nosso animais, o adotante terá que se submeter à uma entrevista e conseguir aprovação.</p>
+			</div>
+
+			<p class="quote">Por favor, preencha a <a href="#proposta">ficha de proposta de adoção</a> abaixo.</p>
+
+			<div id="proposta">
+				<form method="post" action="Ficha_cao_01_AGRADECIMENTO.html#proposta">
+					<p>Nome do Cão:<br>
+					<input type="text" name="nome-do-cao"></p>
+					<p>Por que tem interesse em adotar este cãozinho?<br>
+					<textarea name="interesse" cols="40" rows="10"></textarea></p>
+					<p><input type="submit" name="enviar" value="Enviar"></p>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<!-- FOOTER VAI AQUI -->	
+		</footer>
+
+	</div>
+</body>
