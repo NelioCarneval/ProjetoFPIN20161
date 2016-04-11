@@ -5,23 +5,22 @@
 /*O EMMANUEL VAI INSERIR O HEADER E O FOOTER DEPOIS, APENAS COLOQUEM ESSE ARQUIVO COMO UMA DAS REFERENCIAS DE CSS NAS PÁGINAS QUE FIZEREM*/
 
 #total {
-	width: 1000px;
+	width: 950px;
 	margin: auto;
-	font-family: "Comic Sans MS", cursive;
-	background-color: #D8D8D8;
+	background-color: #e3e3e3;
 	text-transform: none;
-	text-align: center;
-    /*font-family: Century Gothic, Verdana, sans-serif;*/
+    font-family: Century Gothic, Verdana, sans-serif;
 }
 
 .quote {
 	text-align: center;
-	font-family: "Comic Sans MS", cursive;
 }
+
 /*.links {
 	color: #090;
 	text-decoration: none;*/
 /*link sem visita */
+
 a:link {
     color: #090;
 }
