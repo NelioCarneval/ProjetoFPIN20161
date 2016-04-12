@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro de Padrinho - ONG Melhor Amigo</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/LayoutDefault.css">
+
+	<style type="text/css">
+
+		fieldset{
+			margin-top: 1%;
+		}
+		label{
+			margin-right: 1%;
+			margin-left: 1%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="total">
+
+		<header>
+			<!-- HEADER VAI AQUI -->
+		</header>
+
+		<div id="conteudo">
+			
+            <h1 class="quote">Cadastro Gratuito: Adotante - ONG Melhor Amigo</h1>
+			<h3 class="quote">Ao se cadastrar você estará mais perto   de ter seu melhor amigo!</h3>
+            <p class="quote">Para adotar um Melhor Amigo,você irá precisar se cadastrar para agendar uma entrevista, preencha o formulário abaixo.
+			
+		  <form action="#" method="post">
+				<fieldset>
+					<legend>Dados Pessoais</legend>
+					<p><label>Apelido: </label><input type="text" placeholder="Ou seu primeiro nome"></p>
+					<p><label>Nome Completo: </label><input type="text" size="30"></p>
+					<p><label>Data de Nascimento: </label><input type="date"></p>
+					<p><label>CPF: </label><input type="text" size="1" maxlength="3">.<input type="text" size="1" maxlength="3">.<input type="text" size="1" maxlength="3">-<input type="text" size="1" maxlength="2"></p>
+					<p>
+						<label>Telefone 1: </label><input type="text" size="1" maxlength="2" placeholder="DDD"> <input type="text" size="8">
+						<label>Telefone 2: </label><input type="text" size="1" maxlength="2" placeholder="DDD"> <input type="text" size="8">
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Endereço</legend>
+					<p>
+						<label>CEP: </label><input type="text" maxlength="8" size="6">
+						<label>Rua: </label><input type="text" size="30"> 
+						<label>Número: </label><input type="text" size="1">
+					</p>
+					<p>
+						<label>Bairro: </label><input type="text">
+						<label>Complemento: </label><input type="text" size="50">
+					</p>
+					<p>
+						<label>Cidade: </label><input type="text">
+						<label>Estado	: </label>
+						<select>
+							<option value="ac">AC</option> 
+						    <option value="al">AL</option> 
+						    <option value="am">AM</option> 
+						    <option value="ap">AP</option> 
+						    <option value="ba">BA</option> 
+						    <option value="ce">CE</option> 
+						    <option value="df">DF</option> 
+						    <option value="es">ES</option> 
+						    <option value="go">GO</option> 
+						    <option value="ma">MA</option> 
+						    <option value="mt">MT</option> 
+						    <option value="ms">MS</option> 
+						    <option value="mg">MG</option> 
+						    <option value="pa">PA</option> 
+						    <option value="pb">PB</option> 
+						    <option value="pr">PR</option> 
+						    <option value="pe">PE</option> 
+						    <option value="pi">PI</option> 
+						    <option value="rj">RJ</option> 
+						    <option value="rn">RN</option> 
+						    <option value="ro">RO</option> 
+						    <option value="rs">RS</option> 
+						    <option value="rr">RR</option> 
+						    <option value="sc">SC</option> 
+						    <option value="se">SE</option> 
+						    <option value="sp">SP</option> 
+						    <option value="to">TO</option> 
+						</select>
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Dados de Login</legend>
+					<p><label>Email: </label><input type="text" size="30"></p>
+					<p><label>Imagem de perfil: </label><input type="file"></p>
+					<p><label>Senha: </label><input type="password"></p>
+					<p><label>Confirme a senha: </label><input type="password"></p>
+				</fieldset>
+				<p><input type="enviar"> <input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"></p>
+			</form>
+
+		</div>
+
+		<footer>
+			<!-- FOOTER VAI AQUI -->
+		</footer>
+
+	</div>
+</body>
