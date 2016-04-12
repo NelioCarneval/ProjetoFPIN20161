@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sobre Nós</title>
+	<link rel="stylesheet" type="text/css" href="../css/LayoutDefault.css" />
+	<link rel="stylesheet" type="text/css" href="../css/SobreNos.css" />
+</head>
+
+<body>
+	<div id="wrap">
+
+		<p><a href="../index.html"><img id="logoPrincipal" src="../img/logo_melhor_amigo.png"></a></p>
+
+		<header>
+				<nav>
+					<p><a href="#"<a href="#">Adoções</a><a href="#">Apadrinhamento</a><a href="#">Doações</a><a href="#">Entrar</a><a href="#">Cadastre-se</a></p>
+				</nav>
+		</header>
+
+        <h2 class="quote"> Conheça um pouco mais sobre nós</h2>	
+			<p>Somos uma organização não governamental que tem o intuito de remover os cães das ruas e retorná-los a uma vida digna, com a possibilidade de serem adotados.</p>
+			<p>Estamos funcionando há 3 anos e cerca de 300 cães tiveram sua história mudada através do nosso trabalho</p>
+            <br />
+            <br />
+
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="#"><img id="about" src="../img/about.png" title="Sobre" alt="Sobre"></a></li>
+					<li><a href="#"><img id="logoInferior" src="../img/logo_adotar_Black.png" title="Home" alt="Home"></a></li>
+					<li><a href="#"><img id="local" src="../img/local.png" title="Localização" alt="Localização"></a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+</body>
+</html>
