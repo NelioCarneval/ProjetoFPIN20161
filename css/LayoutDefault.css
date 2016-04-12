@@ -1,44 +1,87 @@
-/*AQUI VAI O CSS DO HEADER E DO FOOTER, ALEM DA <div id="total"> E OUTRAS CARACTERISTICAS QUE SERÃO COMUNS À TODAS AS PÁGINAS*/
-
-/*TODA PÁGINA DEVERÁ TER UMA <div id="total"> dentro do <body> E USARÁ ESSE ARQUIVO COMO REFERÊNCIA PARA HEADER E FOOTER*/
-
-/*O EMMANUEL VAI INSERIR O HEADER E O FOOTER DEPOIS, APENAS COLOQUEM ESSE ARQUIVO COMO UMA DAS REFERENCIAS DE CSS NAS PÁGINAS QUE FIZEREM*/
-
-#total {
-	width: 950px;
-	margin: auto;
-	background-color: #e3e3e3;
-	text-transform: none;
-    font-family: Century Gothic, Verdana, sans-serif;
+body{
+	font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+	background-color: green;
 }
-
-.quote {
-	text-align: center;
-}
-
-/*.links {
-	color: #090;
-	text-decoration: none;*/
-/*link sem visita */
 
 a:link {
     color: #090;
 }
 
-/* link visitado */
 a:visited {
     color: purple;
 }
 
-/* mouse emcima do link */
 a:hover {
     color: red;
 }
 
-/*link selecionado */
 a:active {
     color: yellow;
-}	
+}
 
-	
+#wrap{
+	width: 960px;
+	margin: auto;
+	background: white;
+	padding: 10px 20px;
+}
+
+/* HEADER */
+
+header {
+	background-color: green;
+}
+
+header h2 {
+	font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+	display: inline-block;
+	clear: both;
+	padding-left: 15px;
+}
+
+header nav {
+	display: inline;
+	align-content: right;
+	padding-left: 37%;
+}
+
+header nav ul{
+	display: inline;
+	list-style: none;
+	padding: 0px 0px 0px 120px;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+/* FOOTER */
+
+footer {
+	height: 100px;
+	background-color: green;
+	display: block;
+	clear: both;
+}
+
+footer nav ul {
+	padding-top: 10px;
+}
+
+footer nav ul li{
+	list-style: none;
+	display: inline;
+	padding-left: 18%;
+}
+
+#about{
+	width: 7%;
+}
+
+#logoInferior{
+	width: 9%;
+}
+
+#local{
+	width: 4%;
 }
