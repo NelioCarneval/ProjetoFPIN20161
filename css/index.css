@@ -29,6 +29,7 @@
 body p {
 	text-align: justify;
 	font-family: times;
+	margin: auto;
 }
 
 header p {
