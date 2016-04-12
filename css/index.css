@@ -25,3 +25,8 @@
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
+
+p {
+	text-align: justify;
+	font-family: times;
+}
