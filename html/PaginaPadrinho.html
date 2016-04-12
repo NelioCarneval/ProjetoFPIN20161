@@ -6,58 +6,24 @@
 	<title>Padrinho - ONG Melhor Amigo</title>
 
 	<link rel="stylesheet" type="text/css" href="../css/LayoutDefault.css">
-
-	<style type="text/css">
-
-		table{
-			width: 100%;
-			background-color: #999;
-		}
-
-		/*
-		table, th, td {
-		    border: 1px solid black;
-		    border-collapse: collapse;
-		}
-		*/
-
-		th, td.paginas{
-		    padding: 5px;
-		    text-align: center;
-		}
-
-		td.itemLista{
-			width: 33%;
-			padding: 0.5%;
-			background-color: black;
-			border-radius: 5%;
-		}
-
-		td.itemLista img{
-	    	width: 100%;
-	    	border-radius: 5%;
-		}
-
-		#logoInferior{
-			width: 9%;
-			display: block;
-			margin: auto;
-			padding: 3%;
-		}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="../css/PaginaPadrinho.css">
 
 </head>
 
 <body>
-	<div id="total">
 
+	<div id="wrap">
 		<header>
-			<!-- HEADER VAI AQUI -->
+			<h2>Bem vindo, Padrinho!</h2>
+				<nav>
+					<ul>
+						<li><button type="button"><a href="#">Entrar</a></button></li>
+						<li><button type="button"><a href="#">Cadastrar-se</a></button></li>
+					</ul>
+				</nav>
 		</header>
 
-		<div id="conteudo">
-			<h2 class="quote">Bem vindo, Padrinho!</h2>
+		<div id="content">
 
 			<p class="quote">Agradecemos seu interesse e disposição ao apadrinhar um de nossos amiguinhos. Fique a vontade para agendar uma visita!</p>
 
@@ -101,6 +67,7 @@
 						</td>
 					</tr>
 					
+					<tr>
 						<td class="paginas" colspan="3">
 							<a href="#">+Cãezinhos</a>
 						</td>
@@ -110,8 +77,14 @@
 		</div>
 
 		<footer>
-			<!-- FOOTER VAI AQUI -->
+			<nav>
+				<ul>
+					<li><a href="#"><img id="about" src="../img/about.png" title="Sobre" alt="Sobre"></a></li>
+					<li><a href="#"><img id="logoInferior" src="../img/logo_adotar_Black.png" title="Home" alt="Home"></a></li>
+					<li><a href="#"><img id="local" src="../img/local.png" title="Localização" alt="Localização"></a></li>
+				</ul>
+			</nav>
 		</footer>
-
 	</div>
 </body>
+</html>
