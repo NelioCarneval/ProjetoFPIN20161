@@ -1,0 +1,10 @@
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h4, p {
+	text-align: center;
+	font-family: times;
+	margin: auto;
+}
