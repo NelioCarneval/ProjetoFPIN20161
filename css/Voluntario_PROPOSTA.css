@@ -1,0 +1,13 @@
+#proposta{
+	background-color: green;
+	width: 45%;
+	padding: 2%;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 5px;
+	color: white;
+}
+textarea{
+	font-family: sans-serif;
+}
