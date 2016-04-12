@@ -1,7 +1,23 @@
+#ficha{
+	width: 53%;
+	margin: auto;
+	background-color: green;
+	display: table;
+	color: white;
+	border-radius: 5px;
+}
+#fotoDestaque{
+	float: left;
+	width: 50%;
+}
+#dados{
+	padding-left: 58%;
+}
+
 table{
 	width: 85%;
 	margin: auto;
-	margin-top: 2%;
+	margin-top: 3%;
 }
 
 th, td.paginas{
