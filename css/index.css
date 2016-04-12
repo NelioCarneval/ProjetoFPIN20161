@@ -26,7 +26,11 @@
 	filter: alpha(opacity=0);
 }
 
-p {
+body p {
 	text-align: justify;
 	font-family: times;
+}
+
+header p {
+	text-align: center;
 }
