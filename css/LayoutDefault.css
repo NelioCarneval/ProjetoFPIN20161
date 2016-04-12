@@ -1,6 +1,7 @@
 body{
 	font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 	background-color: green;
+	background-image: url("../img/background-4.jpg");
 }
 
 a:link {
@@ -19,40 +20,57 @@ a:active {
     color: yellow;
 }
 
-#wrap{
+#wrap, #total{
 	width: 960px;
 	margin: auto;
 	background: white;
 	padding: 10px 20px;
 }
 
+.quote{
+	text-align: center;
+}
+
 /* HEADER */
 
 header {
+	border-radius: 20px;
 	background-color: green;
 }
 
-header h2 {
+/*header h2 {
 	font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 	display: inline-block;
 	clear: both;
 	padding-left: 15px;
-}
+}*/
 
 header nav {
-	display: inline;
-	align-content: right;
-	padding-left: 37%;
+	text-align: center;
 }
 
-header nav ul{
+/*header nav ul{
 	display: inline;
 	list-style: none;
 	padding: 0px 0px 0px 120px;
+}*/
+
+/*header nav ul li{
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+}*/
+
+nav a{
+	padding-right: 1%;
+	padding-left: 1%;
 }
 
-header nav ul li{
-	display: inline-block;
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
 }
 
 /* FOOTER */
@@ -62,6 +80,7 @@ footer {
 	background-color: green;
 	display: block;
 	clear: both;
+	border-radius: 20px;
 }
 
 footer nav ul {
@@ -84,4 +103,10 @@ footer nav ul li{
 
 #local{
 	width: 4%;
+}
+
+#logoPrincipal{
+	width: 15%;
+	display: block;
+	margin: auto;
 }
