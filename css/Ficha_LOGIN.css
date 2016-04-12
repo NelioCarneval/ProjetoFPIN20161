@@ -1,0 +1,19 @@
+#login{
+	background-color: green;
+	width: 18.25%;
+	padding: 2%;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 5px;
+}
+#ajuda{
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+#ajuda a:link{
+	color: black;
+}
+#ajuda a:visited{
+	color: black;
+}

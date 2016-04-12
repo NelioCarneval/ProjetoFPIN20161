@@ -25,13 +25,3 @@
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
-
-body p {
-	text-align: justify;
-	font-family: times;
-	margin: auto;
-}
-
-header p {
-	text-align: center;
-}

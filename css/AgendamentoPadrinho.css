@@ -1,8 +1,17 @@
-table{
-	width: 100%;
-	background-color: #999;
+fieldset{
+	width: 55%;
+	margin: auto;
 }
 
+legend{
+	color: #090;
+}
+
+table{
+	width: 85%;
+	margin: auto;
+	margin-top: 2%;
+}
 
 th, td.paginas{
 	padding: 5px;
@@ -10,7 +19,7 @@ th, td.paginas{
 }
 
 td.itemLista{
-	width: 33%;
+	width: 20%;
 	padding: 0.5%;
 	background-color: black;
 	border-radius: 5%;

@@ -13,55 +13,54 @@
 <body>
 	<div id="wrap">
 
+		<p><a href="#"><img id="logoPrincipal" src="../img/logo_melhor_amigo.png"></a></p>
+
 		<header>
-			<h2>Agendamento de Visitas: Padrinho</h2>
-				<nav>
-					<ul>
-						<li><button type="button"><a href="#">Entrar</a></button></li>
-						<li><button type="button"><a href="#">Cadastrar-se</a></button></li>
-					</ul>
-				</nav>
+			<nav>
+				<p><a href="#">Sobre Nós</a><a href="#">Adoções</a><a href="#">Apadrinhamento</a><a href="#">Doações</a><a href="#">Entrar</a><a href="#">Cadastre-se</a></p>
+			</nav>
 		</header>
 
+
 		<div id="content">
+			<h2 class="quote">Agendamento de Visitas: Padrinho</h2>
 
 			<p class="quote">Cadastre a próxima visita preenchendo os dados abaixo,e responderemos por e-mail a disponibilidade em 24Horas</p>
 
 			<article class="quote">
            	 
               <h3>Visita do Padrinho:</h3>
-            	<form name="agendamento" method="post" action="#">
+            	<form name="agendamento" method="post" action="PaginaPadrinho.html" onclick="alert('Seu pedido de agendamento foi enviado!')" >
                	  <fieldset>
-                  	<legend style="Color:#090"><strong>Agendamento de Visita</strong></legend>
+                  	<legend><strong>Agendamento de Visita</strong></legend>
                     <p><label>Data do Agendamento: </label><input type="date">
                	  		</p>
                	  	<p><label>Selecione um horário: </label>
 						<select>
-							<option value="manha1">Manhã de 09:00 ás 11:20(Segunda à Sexta) </option> 
-						    <option value="tarde1">Tarde de 13:30 ás 17:20(Segunda à Sexta) </option>
-						    <option value="manha2">Manhã de 08:00 ás 12:20(Sábados e Domingos) </option>
-                            <option value="tarde2">Tarde de 13:00 ás 19:30(Sábados e Domingos) </option>
+							<option value="manha1">Manhã de 09:00 ás 11:20 (Segunda à Sexta) </option> 
+						    <option value="tarde1">Tarde de 13:30 ás 17:20 (Segunda à Sexta) </option>
+						    <option value="manha2">Manhã de 08:00 ás 12:20 (Sábados e Domingos) </option>
+                            <option value="tarde2">Tarde de 13:00 ás 19:30 (Sábados e Domingos) </option>
                         </select>
-               	  	<p><input type="submit" value="Enviar Agendamento"></p> 
-                    <p><input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"></p>
+               	  	<p><input type="submit" value="Agendar" > <input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"></p>
 			
        	      </form>
             </article>
             
             <table>
 			    <thead>
-			        <th colspan="3">Conheça nossos cãezinhos</th>
+			        <th colspan="5">Conheça alguns de nossos cãezinhos</th>
 			    </thead>
 				<tbody>
 					<tr>
 						<td class="itemLista">
-							<a href="Ficha_Caes/Ficha_cao_04_LOGIN.html">
-								<img src="../img/caes/cao_04.jpg" alt="Tereza" title="Tereza" />
+							<a href="Ficha_Caes/Ficha_cao_02_LOGIN.html">
+								<img src="../img/caes/cao_02.jpg" alt="Tereza" title="Tereza" />
 							</a>
 						</td>
 						<td class="itemLista">
-							<a href="Ficha_Caes/Ficha_cao_05_LOGIN.html">
-								<img src="../img/caes/cao_05.jpg" alt="Palito" title="Palito" />
+							<a href="Ficha_Caes/Ficha_cao_04_LOGIN.html">
+								<img src="../img/caes/cao_04.jpg" alt="Palito" title="Palito" />
 							</a>
 						</td>
 						<td class="itemLista">
@@ -69,9 +68,19 @@
 								<img src="../img/caes/cao_06.jpg" alt="Luna" title="Luna" />
 							</a>
 						</td>
+						<td class="itemLista">
+							<a href="Ficha_Caes/Ficha_cao_08_LOGIN.html">
+								<img src="../img/caes/cao_08.jpg" alt="Atena" title="Atena" />
+							</a>
+						</td>
+						<td class="itemLista">
+							<a href="Ficha_Caes/Ficha_cao_11_LOGIN.html">
+								<img src="../img/caes/cao_11.jpg" alt="Dourado" title="Dourado" />
+							</a>
+						</td>
 					</tr>
 					
-						<td class="paginas" colspan="3">
+						<td class="paginas" colspan="5">
 							<a href="CaesParaAdocao.html"> +Cãezinhos</a>
 						</td>
 					</tr>
