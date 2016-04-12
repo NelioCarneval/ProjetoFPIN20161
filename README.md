@@ -24,8 +24,8 @@ Restrições
 
 	Sistema web;
 	Usuários que desejam adotar ou apadrinhar devem ser maior de idade;
-	Voluntários devem ser maior de idade ou acompanhado por responsável;
-	Serão alvos de uma pequena investigação social, para evitar que pessoas violentas façam a adoção.
+	Voluntários devem ser maior de idade;
+	Os adotantes serão alvos de uma entrevista, para evitar que pessoas violentas façam a adoção.
 
 Usuários do Sistema
 
