@@ -78,33 +78,15 @@ nav a:visited{
 /* FOOTER */
 
 footer {
-	height: 100px;
 	background-color: green;
 	display: block;
 	clear: both;
 	border-radius: 20px;
 }
 
-footer nav ul {
-	padding-top: 10px;
-}
-
-footer nav ul li{
-	list-style: none;
-	display: inline;
-	padding-left: 18%;
-}
-
-#about{
-	width: 7%;
-}
-
-#logoInferior{
-	width: 9%;
-}
-
-#local{
-	width: 4%;
+footer nav {
+	text-align: center;
+	font-size: 125%;
 }
 
 #logoPrincipal{
