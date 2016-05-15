@@ -26,33 +26,32 @@
 
 			<h3 class="quote">Ao se cadastrar você estará mais perto de conseguir um novo melhor amigo e fazer parte do nosso time!</h3>
 			
-			<form action="PaginaLogin.html" method="post">
+			<form action="../php/FormularioDeCadastro2.php" method="post">
 				<fieldset>
 					<legend>Dados Pessoais</legend>
-					<p><label>Apelido: </label><input type="text" placeholder="Ou seu primeiro nome"></p>
-					<p><label>Nome Completo: </label><input type="text" size="30"></p>
-					<p><label>Data de Nascimento: </label><input type="date"></p>
-					<p><label>CPF: </label><input type="text" size="1" maxlength="3">.<input type="text" size="1" maxlength="3">.<input type="text" size="1" maxlength="3">-<input type="text" size="1" maxlength="2"></p>
+					<p><label>Nome Completo: </label><input type="text" name="nome" placeholder="Seu nome completo" size="50"></p>
+					<p><label>Data de Nascimento: </label><input type="date" name="data"></p>
+					<p><label>CPF: </label><input type="text" size="11" placeholder="CPF" maxlength="11" name="cpf"></p>
 					<p>
-						<label>Telefone 1: </label><input type="text" size="1" maxlength="2" placeholder="DDD"> <input type="text" size="8">
-						<label>Telefone 2: </label><input type="text" size="1" maxlength="2" placeholder="DDD"> <input type="text" size="8">
+						<label>Telefone: </label><input type="text" size="10" maxlength="10" placeholder="Fone" name="telefone"> 
+						
 					</p>
 				</fieldset>
 				<fieldset>
 					<legend>Endereço</legend>
 					<p>
-						<label>CEP: </label><input type="text" maxlength="8" size="6">
-						<label>Rua: </label><input type="text" size="30"> 
-						<label>Número: </label><input type="text" size="1">
+						<label>CEP: </label><input type="text" maxlength="8" size="6" name="cep">
+						<label>Rua: </label><input type="text" size="30" name="rua"> 
+						<label>Número: </label><input type="text" size="1" name="ncasa">
 					</p>
 					<p>
-						<label>Bairro: </label><input type="text">
-						<label>Complemento: </label><input type="text" size="50">
+						<label>Bairro: </label><input type="text" name="bairro">
+						<label>Complemento: </label><input type="text" size="50" name="complemento">
 					</p>
 					<p>
-						<label>Cidade: </label><input type="text">
+						<label>Cidade: </label><input type="text" name="cidade">
 						<label>Estado	: </label>
-						<select>
+						<select name="estado">
 							<option value="ac">AC</option> 
 						    <option value="al">AL</option> 
 						    <option value="am">AM</option> 
@@ -85,10 +84,10 @@
 				</fieldset>
 				<fieldset>
 					<legend>Dados de Login</legend>
-					<p><label>Email: </label><input type="text" size="30"></p>
-					<p><label>Imagem de perfil: </label><input type="file"></p>
-					<p><label>Senha: </label><input type="password"></p>
-					<p><label>Confirme a senha: </label><input type="password"></p>
+					<p><label>Email: </label><input type="text" size="30" name="email"></p>
+					<p><label>Imagem de perfil: </label><input type="file" name="img"></p>
+					<p><label>Senha: </label><input type="password" name="senha1"></p>
+					<p><label>Confirme a senha: </label><input type="password" name="senha2"></p>
 				</fieldset>
 				<p><input type="submit" onclick="alert('Cadastro criado com sucesso!')"> <input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"></p>
 			</form>
