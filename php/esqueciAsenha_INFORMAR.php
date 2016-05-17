@@ -1,5 +1,5 @@
 <?php
-$email=$_POST['email'];
-header("location:../html/esqueciAsenha_RESPOSTA.html");
 
-?>
+$email = $_POST['email'];
+header("location:../paginas/esqueciAsenha_RESPOSTA.html");
+

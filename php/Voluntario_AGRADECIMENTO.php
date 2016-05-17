@@ -1,6 +1,4 @@
 <?php
 
+header("location:../paginas/Voluntario_AGRADECIMENTO.html");
 
-header("location:../html/Voluntario_AGRADECIMENTO.html");
-
-?>
