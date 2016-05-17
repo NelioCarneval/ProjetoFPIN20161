@@ -31,7 +31,7 @@
                 <article class="center">
 
                     <h3>Visita do Padrinho:</h3>
-                    <form name="agendamento" method="post" action="PaginaPadrinho.html">
+                    <form name="agendamento" method="post" action="PaginaPadrinho.php">
                         <fieldset>
                             <legend><b>Agendamento de Visita</b></legend>
                             <p><label>Data do Agendamento: </label><input type="date">
