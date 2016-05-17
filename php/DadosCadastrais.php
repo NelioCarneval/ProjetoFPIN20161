@@ -14,3 +14,6 @@ $estado = $_POST['estado'];
 $email = $_POST['email'];
 $senha1 = $_POST['senha1'];
 $senha2 = $_POST['senha2'];
+
+
+?>

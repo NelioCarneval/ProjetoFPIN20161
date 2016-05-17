@@ -1,7 +1,7 @@
 function teste() {
-	if($(#email).val()=="") {
-		alert("Insira seu email no campo abaixo!");
-		$(#email).focus();
+	if(document.getElementByClassName('.campo').val()=="") {
+		alert("Insira os campos abaixo!");
+		document.getElementByClassName('.campo').focus();
 		return false;
 	}
 }

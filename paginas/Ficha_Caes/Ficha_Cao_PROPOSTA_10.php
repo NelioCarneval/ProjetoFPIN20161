@@ -18,12 +18,12 @@
 
             <header>
                 <nav>
-                    <p><a href="../CaesParaAdocao.php">Adoções</a><a href="../PaginaPadrinho.html">Apadrinhamento</a><a href="../PaginaDoacao.html">Doações</a><a href="../Voluntario_LOGIN.html">Voluntários</a><a href="../PaginaLogin.html">Entrar</a><a href="../FormularioDeCadastro2.html">Cadastre-se</a></p>
+                    <p><a href="../CaesParaAdocao.php">Adoções</a><a href="../PaginaPadrinho.php">Apadrinhamento</a><a href="../PaginaDoacao.html">Doações</a><a href="../Voluntario_LOGIN.html">Voluntários</a><a href="../PaginaLogin.html">Entrar</a><a href="../FormularioDeCadastro2.html">Cadastre-se</a></p>
                 </nav>
             </header>
 
             <div id="conteudo">
-                <p><a class="subnav" href="../CaesParaAdocao.html">Cães para adoção</a> / <a class="subnav" href="#"><?php echo $cao_10["nome"]; ?></a></p>
+                <p><a class="subnav" href="../CaesParaAdocao.php">Cães para adoção</a> / <a class="subnav" href="#"><?php echo $cao_10["nome"]; ?></a></p>
 
                 <div id="ficha">
                     <img id="fotoDestaque" src="../../img/caes/cao_10.jpg">
