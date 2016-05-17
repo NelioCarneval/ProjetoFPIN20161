@@ -24,16 +24,16 @@
 
 
             <div id="content">
-                <h2 class="quote">Agendamento de Visitas: Padrinho</h2>
+                <h2 class="center">Agendamento de Visitas: Padrinho</h2>
 
-                <p class="quote">Cadastre a próxima visita preenchendo os dados abaixo,e responderemos por e-mail a disponibilidade em 24Horas</p>
+                <p class="center">Cadastre a próxima visita preenchendo os dados abaixo,e responderemos por e-mail a disponibilidade em 24Horas</p>
 
-                <article class="quote">
+                <article class="center">
 
                     <h3>Visita do Padrinho:</h3>
                     <form name="agendamento" method="post" action="PaginaPadrinho.html">
                         <fieldset>
-                            <legend><strong>Agendamento de Visita</strong></legend>
+                            <legend><b>Agendamento de Visita</b></legend>
                             <p><label>Data do Agendamento: </label><input type="date">
                             </p>
                             <p><label>Selecione um horário: </label>
@@ -44,7 +44,7 @@
                                     <option value="tarde2">Tarde de 13:00 ás 19:30 (Sábados e Domingos) </option>
                                 </select>
                             <p><input type="submit" value="Agendar" onclick="alert('Seu pedido de agendamento foi enviado!')" > <input type="reset" value="Limpar"></p>
-
+                        </fieldset>
                     </form>
                 </article>
 

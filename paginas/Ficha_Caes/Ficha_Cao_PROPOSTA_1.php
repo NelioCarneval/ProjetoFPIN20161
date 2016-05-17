@@ -43,7 +43,7 @@
                     <p>Para adotar um de nosso animais, o adotante terá que se submeter à uma entrevista e conseguir aprovação.</p>
                 </div>
 
-                <p class="quote">Por favor, preencha a <a href="#proposta">ficha de proposta de adoção</a> abaixo.</p>
+                <p class="center">Por favor, preencha a <a href="#proposta">ficha de proposta de adoção</a> abaixo.</p>
 
                 <div id="proposta">
                     <form method="post" action="Ficha_Cao_AGRADECIMENTO_1.php#proposta">

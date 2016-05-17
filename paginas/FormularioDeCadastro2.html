@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Cadastramento | Melhor Amigo</title>
+        <title>Cadastro | Melhor Amigo</title>
 
         <link rel="stylesheet" type="text/css" href="../css/LayoutDefault.css">
         <link rel="stylesheet" type="text/css" href="../css/FormularioDeCadastro2.css">
@@ -21,23 +21,20 @@
             </header>
 
             <div id="content">
-                <h2 class="quote">Para Adotar, Apadrinhar ou Voluntariar-se é Necessário o Casdastramento</h2>
+                <h2 class="center">Para Adotar, Apadrinhar ou Voluntariar-se é Necessário o Casdastro</h2>
 
-                <h3 class="quote">Ao se cadastrar você estará mais perto de conseguir um novo melhor amigo e fazer parte do nosso time!</h3>
+                <h3 class="center">Ao se cadastrar você estará mais perto de conseguir um novo melhor amigo e fazer parte do nosso time!</h3>
 
-                <form action="../php/FormularioDeCadastro2.php" method="post">
+                <form action="ConfirmacaoDados.php" method="post" id="formCadastro">
                     <fieldset>
-                        <legend>Dados Pessoais</legend>
+                        <legend><b>Dados Pessoais</b></legend>
                         <p><label>Nome Completo: </label><input type="text" name="nome" placeholder="Seu nome completo" size="50"></p>
                         <p><label>Data de Nascimento: </label><input type="date" name="data"></p>
                         <p><label>CPF: </label><input type="text" size="11" placeholder="CPF" maxlength="11" name="cpf"></p>
-                        <p>
-                            <label>Telefone: </label><input type="text" size="10" maxlength="10" placeholder="Fone" name="telefone"> 
-
-                        </p>
+                        <p><label>Telefone: </label><input type="text" size="11" maxlength="11" placeholder="DDD + Fone" name="telefone"></p>
                     </fieldset>
                     <fieldset>
-                        <legend>Endereço</legend>
+                        <legend><b>Endereço</b></legend>
                         <p>
                             <label>CEP: </label><input type="text" maxlength="8" size="6" name="cep">
                             <label>Rua: </label><input type="text" size="30" name="rua"> 
@@ -51,44 +48,44 @@
                             <label>Cidade: </label><input type="text" name="cidade">
                             <label>Estado	: </label>
                             <select name="estado">
-                                <option value="ac">AC</option> 
-                                <option value="al">AL</option> 
-                                <option value="am">AM</option> 
-                                <option value="ap">AP</option> 
-                                <option value="ba">BA</option> 
-                                <option value="ce">CE</option> 
-                                <option value="df">DF</option> 
-                                <option value="es">ES</option> 
-                                <option value="go">GO</option> 
-                                <option value="ma">MA</option> 
-                                <option value="mt">MT</option> 
-                                <option value="ms">MS</option> 
-                                <option value="mg">MG</option> 
-                                <option value="pa">PA</option> 
-                                <option value="pb">PB</option> 
-                                <option value="pr">PR</option> 
-                                <option value="pe">PE</option> 
-                                <option value="pi">PI</option> 
-                                <option value="rj">RJ</option> 
-                                <option value="rn">RN</option> 
-                                <option value="ro">RO</option> 
-                                <option value="rs">RS</option> 
-                                <option value="rr">RR</option> 
-                                <option value="sc">SC</option> 
-                                <option value="se">SE</option> 
-                                <option value="sp">SP</option> 
-                                <option value="to">TO</option> 
+                                <option value="Acre">AC</option> 
+                                <option value="Alagoas">AL</option> 
+                                <option value="Amazonas">AM</option> 
+                                <option value="Amapá">AP</option> 
+                                <option value="Bahia">BA</option> 
+                                <option value="Ceará">CE</option> 
+                                <option value="Distrito Federal">DF</option> 
+                                <option value="Espírito Santo">ES</option> 
+                                <option value="Goiás">GO</option> 
+                                <option value="Maranhão">MA</option> 
+                                <option value="Mato Grosso">MT</option> 
+                                <option value="Mato Grosso do Sul">MS</option> 
+                                <option value="Minas Gerais">MG</option> 
+                                <option value="Pará">PA</option> 
+                                <option value="Paraíba">PB</option> 
+                                <option value="Paraná">PR</option> 
+                                <option value="Pernambuco">PE</option> 
+                                <option value="Piauí">PI</option> 
+                                <option value="Rio de Janeiro">RJ</option> 
+                                <option value="Rio Grande do Norte">RN</option> 
+                                <option value="Rondônia">RO</option> 
+                                <option value="Rio Grande do Sul">RS</option> 
+                                <option value="Roraima">RR</option> 
+                                <option value="Santa Catarina">SC</option> 
+                                <option value="Sergipe">SE</option> 
+                                <option value="São Paulo">SP</option> 
+                                <option value="Tocantins">TO</option> 
                             </select>
                         </p>
                     </fieldset>
                     <fieldset>
-                        <legend>Dados de Login</legend>
+                        <legend><b>Dados de Login</b></legend>
                         <p><label>Email: </label><input type="text" size="30" name="email"></p>
-                        <p><label>Imagem de perfil: </label><input type="file" name="img"></p>
+                        <p><label>Imagem de perfil: </label><input type="file" name="img" accept="image/*"></p>
                         <p><label>Senha: </label><input type="password" name="senha1"></p>
                         <p><label>Confirme a senha: </label><input type="password" name="senha2"></p>
                     </fieldset>
-                    <p><input type="submit" onclick="alert('Cadastro criado com sucesso!')"> <input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"></p>
+                    <p class="center"><input type="reset" onclick="alert('Todos os dados digitados foram apagados!')" value="Limpar"> <input type="submit" onclick="alert('Cadastro criado com sucesso!')" value="Cadastrar"></p>
                 </form>
 
             </div>
@@ -105,3 +102,4 @@
 
         </div>
     </body>
+</html>

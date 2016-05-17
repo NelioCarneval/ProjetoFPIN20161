@@ -5,6 +5,7 @@ $data = $_POST['data'];
 $cpf = $_POST['cpf'];
 $telefone = $_POST['telefone'];
 $cep = $_POST['cep'];
+$rua = $_POST['rua'];
 $ncasa = $_POST['ncasa'];
 $bairro = $_POST['bairro'];
 $complemento = $_POST['complemento'];
@@ -13,6 +14,3 @@ $estado = $_POST['estado'];
 $email = $_POST['email'];
 $senha1 = $_POST['senha1'];
 $senha2 = $_POST['senha2'];
-
-header("location:../paginas/PaginaLogin.html");
-

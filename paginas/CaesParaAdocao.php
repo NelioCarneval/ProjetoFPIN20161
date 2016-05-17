@@ -23,12 +23,12 @@
             </header>
 
             <div id="content">
-                <h2 class="quote">Cães para Adoção</h2>
+                <h2 class="center">Cães para Adoção</h2>
 
-                <h3 class="quote">Ao adotar um animal de estimação você poderá dar e receber carinho</h3>
+                <h3 class="center">Ao adotar um animal de estimação você poderá dar e receber carinho</h3>
 
-                <p class="quote">Agradecemos seu interesse em adotar um de nossos amiguinhos. Mas, se você tem interesse mesmo, precisamos saber um pouco mais de você, pois do ponto de vista do cão, ser abandonado pelo amigo é muito doloroso... Eles já sofreram isso uma vez e não queremos que isso se repita. Eles não merecem ser tratados com desprezo.</p>
-                <p class="quote">Após escolher um de nossos cãezinhos, uma ficha de proposta de adoção deverá ser totalmente preenchida. Após análise, entraremos em contato com você.</p>
+                <p class="center">Agradecemos seu interesse em adotar um de nossos amiguinhos. Mas, se você tem interesse mesmo, precisamos saber um pouco mais de você, pois do ponto de vista do cão, ser abandonado pelo amigo é muito doloroso... Eles já sofreram isso uma vez e não queremos que isso se repita. Eles não merecem ser tratados com desprezo.</p>
+                <p class="center">Após escolher um de nossos cãezinhos, uma ficha de proposta de adoção deverá ser totalmente preenchida. Após análise, entraremos em contato com você.</p>
 
                 <table>
                     <thead>

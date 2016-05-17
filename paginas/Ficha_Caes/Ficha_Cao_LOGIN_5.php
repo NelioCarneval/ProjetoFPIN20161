@@ -43,7 +43,7 @@
                     <p>Para adotar um de nosso animais, o adotante terá que se submeter à uma entrevista e conseguir aprovação.</p>
                 </div>
 
-                <p class="quote">Por favor, faça o <a href="#login">login</a> abaixo ou <a href="../FormularioDeCadastro2.html" target="_BLANK">cadastre-se</a>, para ter acesso à ficha de proposta de adoção.</p>
+                <p class="center">Por favor, faça o <a href="#login">login</a> abaixo ou <a href="../FormularioDeCadastro2.html" target="_BLANK">cadastre-se</a>, para ter acesso à ficha de proposta de adoção.</p>
 
                 <div id="login">
                     <form method="post" action="Ficha_Cao_PROPOSTA_5.php#proposta">

@@ -23,15 +23,15 @@
             </header>
 
             <div id="content">
-                <h2 class="quote">Bem vindo, Padrinho!</h2>
+                <h2 class="center">Bem vindo, Padrinho!</h2>
 
-                <p class="quote">Agradecemos seu interesse e disposição ao apadrinhar um de nossos amiguinhos. Fique a vontade para agendar uma visita!</p>
+                <p class="center">Agradecemos seu interesse e disposição ao apadrinhar um de nossos amiguinhos. Fique a vontade para agendar uma visita!</p>
 
                 <article>
 
-                    <h3 class="quote">Cães Apadrinhados</h3>
+                    <h3 class="center">Cães Apadrinhados</h3>
                     <div id="ficha">
-                        <img id="fotoDestaque" src="../img/caes/cao_padrinho.jpg">
+                        <img id="fotoDestaque" src="../img/caes/cao_13.jpg">
                         <div id="dados">
                             <h2 id="nome"><?php echo $cao_13["nome"]; ?></h2>
                             <p>Gênero: <?php echo $cao_13["genero"]; ?></p>
@@ -39,7 +39,7 @@
                             <p>Porte <?php echo $cao_13["porte"]; ?></p>
                         </div>
                     </div>
-                    <div id="detalhes" class="quote">
+                    <div id="detalhes" class="center">
                         <p>Data de Cadastro:11/02/2016</p>
                         <p>Data de Apadrinhamento: 23/03/2016</p>
                         <p><a class="links" href="AgendamentoPadrinho.php">Agendar visita</a></p>

@@ -1,13 +1,8 @@
-#formCadastro{
+#dados {
     width: 85%;
     margin: auto;
 }
 
 fieldset{
     margin-top: 1%;
-}
-
-label{
-    margin-right: 1%;
-    margin-left: 1%;
 }
