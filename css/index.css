@@ -16,9 +16,9 @@
 }
 
 .imagem {
-	border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
+	border-radius: 15%;
+	-webkit-border-radius: 15%;
+	-moz-border-radius: 15%;
 }
 
 .imagem img {

@@ -9,6 +9,7 @@
 #fotoDestaque{
 	float: left;
 	width: 50%;
+	border-radius: 2%;
 }
 #dados{
 	padding-left: 58%;
