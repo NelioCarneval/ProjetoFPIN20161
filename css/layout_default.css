@@ -1,0 +1,63 @@
+body{
+    /*font-family: Trebuchet MS, Helvetica, Arial, sans-serif;*/
+    background-image: url("../img/background-2.jpg");
+}
+
+.mycontainer{
+    background-color: white;
+    width: 960px;
+}
+
+article {
+    padding: 20px 20px;
+}
+
+.cabecalho{
+    display: block;
+    margin-bottom: 3%;
+}
+
+#logoPrincipal{
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.center{
+    text-align: center;
+}
+
+/*
+.mythumbnail {
+    background-color: #fafafa;
+    background-image: linear-gradient(to bottom,#fff,#f2f2f2);
+    background-repeat: repeat-x;
+}
+*/
+
+.mythumbnail h3{
+    color: #0088cc;
+}
+
+a:hover .mythumbnail h3{
+    color: #005580;
+}
+
+#fotosCaes img{
+    width: 20%;
+    height: 135px;
+}
+
+#info{
+    margin-bottom: 3%;
+}
+
+.imgCao{
+    width: 284px;
+    height: 211px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0;
+}

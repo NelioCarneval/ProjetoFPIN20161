@@ -1,0 +1,12 @@
+#formLogin fieldset{
+    margin: auto;
+    padding-top: 2%;
+}
+
+#formLogin fieldset legend{
+    text-align: center;
+}
+
+#formLogin .control-group{
+    padding-left: 21%;
+}

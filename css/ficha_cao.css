@@ -1,0 +1,24 @@
+#ficha-cao {
+    background-color: #F5F5F5;
+}
+
+form, .alertIn {
+    margin-bottom: 0;
+}
+
+#formApadrinhar .input-prepend {
+    margin-bottom: 10px;
+}
+
+#submitAdo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submitPad {
+    margin-bottom: 10px;
+}
+
+li.span4 {
+    margin-bottom: 0px;
+}

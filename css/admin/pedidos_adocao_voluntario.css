@@ -1,0 +1,42 @@
+.tdData {
+    min-width: 75px;
+}
+
+.tdNomeCao {
+    width: 115px;
+}
+
+.tdMsg {
+    width: 400px;
+}
+
+blockquote {
+    margin-bottom: 0;
+}
+
+.tdResp {
+    width: 75px;
+}
+
+.tdResp a {
+    margin: -3px;
+}
+
+a.linkFicha {
+    text-decoration: none;
+    color: black;
+}
+
+.opcoesBusca {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.opcoesBusca-inverse {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.opcoesBusca .opcoesMargin, .opcoesBusca-inverse .opcoesMargin{
+    margin-left: 10px;
+}

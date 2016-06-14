@@ -1,0 +1,13 @@
+#proposta{
+    width: 45%;
+    margin: auto;
+}
+
+#formVoluntario, #proposta .alertIn{
+    margin-bottom: 0;
+}
+
+#submitVol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

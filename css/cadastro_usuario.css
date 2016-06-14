@@ -1,0 +1,11 @@
+fieldset{
+    margin-top: 1%;
+}
+
+.campo{
+    margin-bottom: 1%;
+}
+
+div.controls.input-prepend {
+    margin-left: 20px;
+}

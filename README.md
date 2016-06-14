@@ -1,97 +1,101 @@
-# ProjetoFPIN20161
-Projeto de um site para ajudar ONG's de adoção de animais
+# Sistema Online de Adoção de Animais - ONG
 
-Tema
-	
-Sistema Online de Adoção de Animais
+Projeto de FPIN 2016.1 - Sistemas de Informação, IFAL
 
-Integrantes da equipe
+Objetivo: Desenvolver um sistema que auxilie a adoção de animais na web, bem como na administração de ONG’s com tal objetivo.
 
-	Emmanuel Alves (emmanuel.sevla@gmail.com)
-	Felipe Carvalho (felipekstrue@gmail.com ou felipecavalcanti100@gmail.com)
-	Nélio Carneval (carnevalle18@gmail.com ou nelio_carneval@hotmail.com)
-	Pedro Ivo (pedroivo-hp@hotmail.com ou pedroivohp@gmail.com)
+Integrantes da equipe:
 
-Descrição do problema / Justificativa
+	Emmanuel Alves
+		- emmanuel.sevla@gmail.com
+	Felipe Carvalho
+		- felipekstrue@gmail.com
+		- felipecavalcanti100@gmail.com
+	Nélio Carneval
+		- carnevalle18@gmail.com
+		- nelio_carneval@hotmail.com
+	Pedro Ivo
+		- pedroivohp@gmail.com
+		- pedroivo-hp@hotmail.com
 
-	A superpopulação do Centro de Controle de Zoonoses não é mais uma possibilidade e sim um fato. A remediação para tal problema não é de agradar àqueles que se preocupam com o bem-estar destes animais, como por exemplo, o sacrifício. Diante do extermínio e maus tratos desses, há a necessidade de utilizar tecnologias que auxiliem ONG’s destinadas a reduzir o sofrimento dos animais, além de levar alegria a novos lares. 
+Framework utilizado: Globo Bootstrap - http://globocom.github.io/bootstrap/
 
-Objetivo
+Processo de configuração para que o programa possa ser instalado e executado:
 
-	Desenvolver um sistema que auxilie a adoção de animais na web, bem como na administração de ONG’s com tal objetivo.
+	1. Colocar a pasta do projeto na pasta htdocs do XAMPP
+	2. Executar o XAMPP e ligar o Apache e o MySQL
+	3. No navegador acessar "http://localhost/phpmyadmin/"
+	4. Na guia "Importar" do phpMyAdmin, clicar em "Escolher arquivo" e selecionar o Script que está em "database/Script_(melhor_amigo).sql" e clicar em Executar
+	5. Pronto! O banco de dados ja está criado e pronto para funcionar!
 
-Restrições
+Usuários que pré-existentes no banco de dados:
 
-	Sistema web;
-	Usuários que desejam adotar ou apadrinhar devem ser maior de idade;
-	Voluntários devem ser maior de idade;
-	Os adotantes serão alvos de uma entrevista, para evitar que pessoas violentas façam a adoção.
+	Email: adotante@fpin.com | Senha: "1234qwer"
+		- Tipo de usuário: Comum
 
-Usuários do Sistema
+	Email: "padrinho@fpin.com" | Senha: "1234qwer"
+		- Tipo de usuário: Padrinho
 
-	Responsáveis pelo Sistema de Adoção;
-	Voluntários/Cuidadores (Necessita de cadastro);
-	Usuários que desejam adotar (Necessita de cadastro);
-	Usuários que desejam Apadrinhar (Necessita de cadastro);
-	Usuários Anônimos.
+	Email: voluntario@fpin.com | Senha: "1234qwer"
+		- Tipo de usuário: Voluntário
 
-Requisitos funcionais
+	Email: admin@fpin.com | Senha: "1234qwer"
+		- Tipo de usuário: Administrador
 
-	Administrador do Sistema
+	Email: jose@fpin.com | Senha: "1234qwer"
+		- Tipo de usuário: Comum
 
-Cadastrar espécies e animais individualmente;
-Gerenciar agenda dos animais;
-Gerenciar Agendamento de Entrevistas com Adotantes e Voluntários;
-Cadastrar e Visualizar dados sobre Adoções, Gastos Gerais e Doações;
-Cadastrar e Visualizar informações sobre Voluntários;
-Cadastrar e Visualizar informações sobre Adotantes;
-Cadastrar e Visualizar informações sobre Padrinhos;
-Sugerir Atividades na Agenda dos Voluntários;
+	Email: maria@fpin.com | Senha: "1234qwer"
+		- Tipo de usuário: Comum
 
-	Voluntários
+Descrição do problema / Justificativa:
 
-Visualizar informações sobre  animais individualmente;
-Visualizar e Sugerir atividades na agenda individual dos animais;
-Visualizar dados sobre adoções e gastos gerais;
-Gerenciar Agenda dos Voluntários; 
+	A superpopulação do Centro de Controle de Zoonoses não é mais uma possibilidade e sim um fato. A remediação para tal problema não é de agradar àqueles que se
+	preocupam com o bem-estar destes animais, como por exemplo, o sacrifício. Diante do extermínio e maus tratos desses, há a necessidade de utilizar tecnologias 
+	que auxiliem ONG’s destinadas a reduzir o sofrimento dos animais, além de levar alegria a novos lares.
 
-	Padrinhos
+Usuários do Sistema:
 
-Visualizar dados sobre adoções e gastos gerais;
-Visualizar informações sobre animais individualmente e escolher animal para apadrinhar;
+	- Responsáveis pelo Sistema de Adoção (Administradores)
+	- Voluntários
+	- Padrinhos
+	- Usuários Comuns (Que desejam adotar, apadrinhar ou se voluntariar)
+	- Usuários Anônimos
 
-	Doadores e Usuários Anônimos
+Funcionalidades para usuário anônimo:
 
-Visualizar dados sobre adoções e gastos gerais;
-Visualizar informações sobre animais individualmente;
-		
+	- Acesso limitado
+	- Vizualização de Cães disponíveis para adoção, bem como as informações de cada um
+	- Realização de Cadastro e Login
 
-Detalhamento dos requisitos
-	
-	Visão dos Administradores do Sistema:
-		
-    O administrador terá uma tela de login apropriada, que permitirá cadastrar nova espécie e animais individualmente (inserindo imagens);
-	  Terá uma página especifica para mostrar informações,estatísticas sobre quantidades de adoções, tempo estimado para adoção, quantidade de entrevistas, quantidade de animais acolhidos, gastos com animais (alimentação, remédios, cirurgias, aluguel), doações recebidas, gastos com veterinários, psicólogos e serviços gerais.
+Funcionalidades para usuário comum:
 
-	Visão dos Voluntários:
+	- Enviar solicitações de adoção
+	- Possibilidade de apadrinhar um cão
+	- Enviar pedidos para se tornar voluntário da ONG
+	- Visualizar seus dados (Que foram fornecidos na hora do cadastro)
+	- Opção de alterar seus dados
 
-	  Tela de cadastro específica (deverá passar por entrevista), informar dias disponíveis e especie de preferência.
-	
-	Visão dos Adotantes:
+Funcionalidades para padrinhos:
 
-	  Tela de cadastro específica, podendo visualizar imagens dos animais e suas características, com a possibilidade de agendar uma entrevista com dia, horário e quantidade de visitantes.
+	- Visualizar do Cão apadrinhado
+	- Visualizar seus dados de apadrinhamento
+	- Opção de mudar os seus dados de apadrinhamento
+	- Possibilidade de deixar de ser padrinho
 
-	Visão dos Padrinhos:
+Funcionalidades para voluntários:
 
-	Tela de cadastro específica, podendo visualizar imagens dos animais e suas características e escolher animal para apadrinhar, com informações sobre período e forma de pagamento.
-	Ver informações sobre o tempo que o animal está no local e seus gastos mensais.
+	- Visualizar seus dados de voluntário
+	- Opção de mudar os seus dados de voluntário
+	- Possibilidade de deixar de ser voluntário
 
-	Visão dos Doadores/Patrocinadores:
+Funcionalidades para administradores:
 
-	Tela de cadastro específica, podendo visualizar imagens dos animais e suas características, com informações sobre período e forma de pagamento.
-	Ver informações sobre gastos gerais dos animais.
-
-  Visão dos Usuários Anônimos:
-
-	Tela principal, podendo cadastrar-se como doador, padrinho ou adotante.
-	Ver imagens de diferentes espécies de animais.
+	- Listar usuários
+	- Listar padrinhos
+	- Listar voluntários
+	- Banir usuários
+	- Cadastrar cães no sistema
+	- Modificar informações de cães
+	- Visualizar, aceitar ou recusar solicitações de adoção
+	- Visualizar, aceitar ou recusar pedidos para ser voluntário 

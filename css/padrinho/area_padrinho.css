@@ -1,0 +1,21 @@
+#areaPadrinho {
+    width: 606px;
+    margin-bottom: 0;
+}
+
+.campo{
+    margin-bottom: 8px;
+}
+
+div.controls.input-prepend {
+    margin-left: 20px;
+}
+
+.block {
+    display: block;
+}
+
+#desistir {
+    text-align: right;
+    margin-bottom: 0;
+}

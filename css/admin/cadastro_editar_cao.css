@@ -1,0 +1,27 @@
+.btnAction {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+#formCao {
+    width: 60%;
+    margin: auto;
+}
+
+.campo {
+    margin-bottom: 9px;
+}
+
+.imgCaoEditar {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#alertaEdit {
+    margin-bottom: 0;
+}
