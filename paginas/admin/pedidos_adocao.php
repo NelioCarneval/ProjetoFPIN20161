@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-
 <?php
 include '../../php_default/controle_login.php';
 
 $queryPedidos = "SELECT * FROM t_solicit_adocao, t_usuario where status_aprovacao=0 AND t_solicit_adocao.id_adotante=t_usuario.id_usuario ORDER BY data_solicit";
 $resultPedidos = mysqli_query($link, $queryPedidos);
 ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>

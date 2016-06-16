@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-
 <?php include '../php_default/controle_login.php'; ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>
@@ -40,7 +40,7 @@
                     <h2>Recuperar Senha<br/><small>Informe o email cadastrado para enviarmos um link de alteração de senha.</small></h2>
                 </div>
 
-                <form action="login_usuario.php" id="formLogin" class="form-horizontal" onSubmit='alert("Um email com um link para a recuperação da sua senha foi enviado!\nPor favor, siga os passos para recuperar a sua senha.")'>
+                <form action="login_usuario.php" method="post" id="formLogin" class="form-horizontal" onSubmit='alert("Um email com um link para a recuperação da sua senha foi enviado!\nPor favor, siga os passos para recuperar a sua senha.")'>
                     <fieldset>
                         <div class="control-group">
                             <label class="control-label" for="inputEmail">Email</label>

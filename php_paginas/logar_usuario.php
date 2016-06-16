@@ -5,7 +5,7 @@ include ('../php_default/conexao_bd.php');
 $email_digitado = $_POST['email'];
 $senha_digitada = $_POST['senha'];
 
-$queryCadastro = "SELECT * FROM T_USUARIO WHERE EMAIL = '$email_digitado'";
+$queryCadastro = "SELECT * FROM t_usuario WHERE email = '$email_digitado'";
 $resultCadastro = mysqli_query($link, $queryCadastro);
 
 while ($row = mysqli_fetch_assoc($resultCadastro)) {

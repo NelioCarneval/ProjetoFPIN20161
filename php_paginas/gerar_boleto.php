@@ -6,8 +6,8 @@
  * pois se aplica muito bem ao conceito de geração de boleto para doação.
  */
 
-include ('../ferramentas_externas/openboleto/autoloader.php');
 include ('../php_default/conexao_bd.php');
+include ('../ferramentas_externas/openboleto/autoloader.php');
 
 $id_usuario = $_POST['id_usuario'];
 $valor = transformaValor($_POST['valor']);

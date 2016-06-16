@@ -7,7 +7,7 @@ $senha_digitada = $_POST['senha'];
 $nova_senha1 = $_POST['nova_senha1'];
 $nova_senha2 = $_POST['nova_senha2'];
 
-$querySenha = "SELECT senha FROM T_USUARIO WHERE id_usuario = '$id_usuario'";
+$querySenha = "SELECT senha FROM t_usuario WHERE id_usuario = '$id_usuario'";
 $resultSenha = mysqli_query($link, $querySenha);
 
 while ($row = mysqli_fetch_assoc($resultSenha)) {

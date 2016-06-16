@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
 include '../../php_default/controle_login.php';
 
@@ -14,6 +12,8 @@ while ($row = mysqli_fetch_assoc($resultPadrinho)) {
     $data_apadrinhamento = $row['data_apadrinhamento'];
 }
 ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>

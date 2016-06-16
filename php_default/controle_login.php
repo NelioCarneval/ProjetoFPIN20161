@@ -5,7 +5,7 @@ session_start();
 if (verificaLogin()) {
     include ('conexao_bd.php');
 
-    $queryLogin = "SELECT * FROM T_USUARIO WHERE ID_USUARIO = '" . getId_usuario() . "'";
+    $queryLogin = "SELECT * FROM t_usuario WHERE id_usuario = '" . getId_usuario() . "'";
     $resultLogin = mysqli_query($link, $queryLogin);
 
     while ($row = mysqli_fetch_assoc($resultLogin)) {

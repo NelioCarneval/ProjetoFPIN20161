@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
 include '../../php_default/controle_login.php';
 
@@ -12,6 +10,8 @@ while ($row = mysqli_fetch_assoc($resultVoluntario)) {
     $agenda = $row['agenda'];
 }
 ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>

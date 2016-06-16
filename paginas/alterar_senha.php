@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-
 <?php include '../php_default/controle_login.php'; ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>

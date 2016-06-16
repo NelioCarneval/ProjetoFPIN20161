@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
 include '../../php_default/controle_login.php';
 
@@ -21,6 +19,8 @@ if (isset($_GET['tipoU'])) {
 
 $resultUsuarios = mysqli_query($link, $queryUsuarios);
 ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>
