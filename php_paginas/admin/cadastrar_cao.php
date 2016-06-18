@@ -30,7 +30,6 @@ if (verificaLogin()) {
                         //Tenta mover o arquivo para o destino
                         if (@move_uploaded_file($arquivo_tmp, $destino)) {
                             $src_imagem = 'img/caes/caes_novos/' . $novo_nome;
-                            echo 'Upload de imagem ok!';
                         } else {
                             $src_imagem = 'img/caes/cao_0.png';
                         }
