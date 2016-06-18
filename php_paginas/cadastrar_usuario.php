@@ -128,7 +128,7 @@ function validaCEP($cep) {
 function verificaEmail($email) {
     global $link;
 
-    $queryVerificaEmail = "SELECT * FROM T_USUARIO WHERE EMAIL = '$email'";
+    $queryVerificaEmail = "SELECT * FROM t_usuario WHERE email = '$email'";
     $resultVerificaEmail = mysqli_query($link, $queryVerificaEmail);
     $numLinhasResult = mysqli_num_rows($resultVerificaEmail);
 
